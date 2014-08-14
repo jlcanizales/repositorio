@@ -144,6 +144,8 @@ class ImagesController extends BaseController
 		}
 	}
 
+	
+
 	public function getListarfiles()
 
 	{	$id_user=Auth::user()->id;
